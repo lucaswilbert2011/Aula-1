@@ -1,0 +1,11 @@
+palavra = input('Digite uma palavra')
+vogais = 'aeiouAEIOU'
+pontos= 0
+
+for i in palavra:
+    if i in vogais:
+        pontos += 1
+
+
+
+print("número de vogais da sua palavra:", pontos)
